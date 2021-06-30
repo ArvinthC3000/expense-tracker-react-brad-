@@ -1,12 +1,7 @@
 // eslint-disable-next-line import/no-anonymous-default-export
-const AppReducer = (state, { type, payload }) => {
-  switch (type) {
-    // case typeName:
-    //     return { ...state, ...payload }
-
+export default (state, action) => {
+  switch (action.type) {
     default:
       return state;
   }
 };
-
-export default AppReducer;
