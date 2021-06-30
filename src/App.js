@@ -5,15 +5,12 @@ import Balance from './components/Balance';
 import Header from './components/Header';
 import IncomeExpenses from './components/IncomeExpenses';
 import TransactionList from './components/TransactionList';
-import GlobalState from './context/GlobalState';
+import { GlobalProvider } from './context/GlobalState';
 
 const App = () => {
-  // console.log(GlobalState());
-  console.log(GlobalState);
-  console.log(<GlobalState></GlobalState>);
   return (
-    <GlobalState>
-      <>
+    <GlobalProvider>
+      <div>
         <Header />
         <div className='container'>
           <Balance />
@@ -21,8 +18,8 @@ const App = () => {
           <TransactionList />
           <AddTransaction />
         </div>
-      </>
-    </GlobalState>
+      </div>
+    </GlobalProvider>
   );
 };
 
