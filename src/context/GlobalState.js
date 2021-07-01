@@ -10,11 +10,12 @@ const initialState = {
     { id: 4, text: 'Camera', amount: 150 },
   ],
 };
+
 // Create context
-const GlobalContext = createContext(initialState);
+export const GlobalContext = createContext(initialState);
 
 // Provider Component
-export const GlobalProvider = ({ childern }) => {
+export const GlobalProvider = props => {
   const [state, dispatch] = useReducer(AppReducer, initialState);
 
   return (
@@ -22,7 +23,7 @@ export const GlobalProvider = ({ childern }) => {
       value={{
         transactions: state.transactions,
       }}>
-      {childern}
+      {props.childern}
     </GlobalContext.Provider>
   );
 };

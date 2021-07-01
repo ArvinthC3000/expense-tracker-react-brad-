@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TransactionList = () => {
+export const TransactionList = () => {
   return (
     <>
       <h3>History</h3>
@@ -13,5 +13,3 @@ const TransactionList = () => {
     </>
   );
 };
-
-export default TransactionList;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const IncomeExpenses = () => {
+export const IncomeExpenses = () => {
   return (
     <div className='inc-exp-container'>
       <div>
@@ -14,5 +14,3 @@ const IncomeExpenses = () => {
     </div>
   );
 };
-
-export default IncomeExpenses;
