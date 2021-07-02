@@ -10,9 +10,7 @@ Expense Tracker is an application to document your income and expenses.
 
 Mobile and desktops
 
-## Design
-
-### Mobile
+### A Glimpse of UI
 
 <div style="display: flex; backgroundColor:#707070">
 <img src='https://github.com/ArvinthC3000/expense-tracker-react-brad-/blob/master/src/assets/Home.png' height='500' style="border: 1px solid black;border-radius: 1rem;" />
