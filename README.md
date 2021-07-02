@@ -25,7 +25,9 @@ Mobile and desktops
 
 After cloning repo to your local, run following command in root folder
 
-`npm run dev`
+`npm start`
+
+**Note: This app contains prepopulated dummy income and expenses**
 
 ## Author
 
@@ -38,7 +40,5 @@ email: arvinthc97@gmail.com
 
 - [ReactJS](https://reactjs.org/docs/getting-started.html)
 - [JSX](https://reactjs.org/docs/introducing-jsx.html)
-- [Axios](https://www.npmjs.com/package/axios)
+- [Context API](https://rapidapi.com/blog/react-context-api/?utm_source=google&utm_medium=cpc&utm_campaign=DSA&gclid=Cj0KCQjw8vqGBhC_ARIsADMSd1BD2DSdhuw3gj9856DcGlKY89nhTUC-ZUQv1Q0nDaBMfUA6MbIt2NIaAs8nEALw_wcB)
 - [JavaScript-ES6](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
-- [NodeJs](https://nodejs.org/en/)
-- [JWT](https://www.npmjs.com/package/jsonwebtoken)
