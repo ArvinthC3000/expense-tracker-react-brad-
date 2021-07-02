@@ -15,7 +15,7 @@ Mobile and desktops
 ### Mobile
 
 <div style="display: flex; backgroundColor:#707070">
-<img src='https://github.com/ArvinthC3000/expense-tracker-react-brad-/tree/master/src/assets/Home.png' height='500' style="border: 1px solid black;border-radius: 1rem;" />
+<img src='https://github.com/ArvinthC3000/expense-tracker-react-brad-/blob/master/src/assets/Home.png' height='500' style="border: 1px solid black;border-radius: 1rem;" />
 
 ## Installization Guide
 
